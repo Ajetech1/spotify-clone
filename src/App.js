@@ -33,11 +33,11 @@ function App() {
         });
       });
     }
-    // console.log("I HAVE A TOKEN>>> ", token);
+    console.log("I HAVE A TOKEN>>> ", token);
   }, [token]);
 
-  // console.log("👨", user);
-  // console.log("👽", token);
+  console.log("👨", user);
+  console.log("👽", token);
 
   return (
     <div className="app">
